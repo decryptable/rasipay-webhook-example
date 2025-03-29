@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 export function DeployButton() {
   return (
     <Link
-      href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdecryptable%2Frasipay-webhook-example&env=BOT_TOKEN&project-name=rasipay-webhook&repository-name=rasipay-webhook&demo-title=RasiPay%20Webhook&demo-description=Implementasi%20webhook%20untuk%20bot%20Telegram%20%40RasiPayBot&demo-url=https%3A%2F%2Frasipay-webhook-example.vercel.app"
+      href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdecryptable%2Frasipay-webhook-example&env=BOT_TOKEN,TELEGRAM_CHAT_IDS,APP_NAME&project-name=rasipay-webhook&repository-name=rasipay-webhook&demo-title=RasiPay%20Webhook&demo-description=Implementasi%20webhook%20untuk%20bot%20Telegram%20%40RasiPayBot&demo-url=https%3A%2F%2Frasipay-webhook-example.vercel.app"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-block transform transition-transform hover:scale-105"
