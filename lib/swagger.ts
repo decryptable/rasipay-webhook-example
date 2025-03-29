@@ -16,7 +16,7 @@ export const getApiDocs = () => {
       },
       servers: [
         {
-          url: process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000",
+          url: process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "http://localhost:3000",
           description: "Server API",
         },
       ],
